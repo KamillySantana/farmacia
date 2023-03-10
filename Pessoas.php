@@ -2,14 +2,12 @@
 
 class Pessoas {
     private $nome;
-    private $rg;
     private $email;
     private $cpf;
     private $telefone;
 
-    public function __construct($nome, $rg, $email, $cpf, $telefone) {
+    public function __construct($nome, $email, $cpf, $telefone) {
         $this->nome = $nome;
-        $this->rg = $rg;
         $this->email = $email;
         $this->cpf = $cpf;
         $this->telefone = $telefone;
@@ -17,10 +15,6 @@ class Pessoas {
 
     public function getNome() {
         return $this->nome;
-    }
-
-    public function getRg() {
-        return $this->rg;
     }
 
     public function getEmail() {

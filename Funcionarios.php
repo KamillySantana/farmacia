@@ -1,7 +1,8 @@
 <?php
 
 class Funcionarios extends Pessoas{
-    public function __construct($nome, $rg, $email, $cpf, $telefone) {
-        parent::__construct($nome, $rg, $email, $cpf, $telefone);
+    public function __construct($nome, $email, $cpf, $telefone) {
+        parent::__construct($nome, $email, $cpf, $telefone);
     }
+    
 }
