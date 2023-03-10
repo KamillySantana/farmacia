@@ -1,26 +1,26 @@
 <?php 
 
 class Categoria {
-    private $remedio;
-    private $cosmeticos;
-    private $higiene;
+    private $nome;
+    private $funcao;
+    private $classificacao;
 
 
-    public function __construct($remedio, $cosmeticos, $higiene) {
-        $this->remedio = $remedio;
-        $this->cosmeticos = $cosmeticos;
-        $this->higiene = $higiene;
+    public function __construct($nome, $funcao, $classificacao) {
+        $this->nome = $nome;
+        $this->funcao = $funcao;
+        $this->classificacao = $classificacao;
     }
 
-    public function getRemedio() {
-        return $this->remedio;
+    public function getNome() {
+        return $this->nome;
     }
 
-    public function getCosmetico() {
-        return $this->cosmeticos;
+    public function getFuncao() {
+        return $this->funcao;
     }
 
-    public function getHigiene() {
-        return $this->higiene;
+    public function getClassificacao() {
+        return $this->classificacao;
     }
 }
