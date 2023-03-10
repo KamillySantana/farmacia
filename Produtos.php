@@ -2,7 +2,7 @@
 
 class Produtos extends Categoria{
 
-    public function __construct($nome, $funcao, $classificacao, $faixaetaria) {
-        parent::__construct($nome, $funcao, $classificacao, $faixaetaria);
+    public function __construct($nome, $funcao, $classificacao){
+        parent::__construct($nome, $funcao, $classificacao);
     }
 }
